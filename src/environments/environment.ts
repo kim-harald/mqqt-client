@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  hmr: false,
+	http: {
+		apiUrl: 'https://alef/api',
+	},
+	mqtt: {
+		server: 'alef',
+		protocol: "wss",
+		port: 9001
+	}
 };
 
 /*
